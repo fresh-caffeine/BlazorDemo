@@ -5,6 +5,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+    
+// Add the Sass Watcher  
+#if DEBUG
+    builder.Services.AddSassCompiler();
+#endif
 
 var app = builder.Build();
 
