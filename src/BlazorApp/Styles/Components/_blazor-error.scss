@@ -1,0 +1,17 @@
+#blazor-error-ui {
+    background: #ffffe0;
+    bottom: 0;
+    display: none;
+    left: 0;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+    .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+}

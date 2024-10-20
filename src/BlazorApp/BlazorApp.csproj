@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AspNetCore.SassCompiler" Version="1.77.8" />
+    <PackageReference Include="AspNetCore.SassCompiler" Version="1.79.3" />
   </ItemGroup>
 
 </Project>
